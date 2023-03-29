@@ -13,9 +13,7 @@ public class BankAccount {
 
 //    Constructor
 
-    public BankAccount (String inputFirstName, String inputLastName,
-                        String inputDateOfBirth, int inputAccount,
-                        int inputBalance, String inputAccountType) {
+    public BankAccount (String inputFirstName, String inputLastName, String inputDateOfBirth, int inputAccount, int inputBalance, String inputAccountType) {
         this.firstName = inputFirstName;
         this.lastName = inputLastName;
         this.dateOfBirth = inputDateOfBirth;
